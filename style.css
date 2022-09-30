@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap');    
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* Responsive */
+@media screen and (max-width:700px) {
+    header, .bagian1 {
+        width: 100%;
+    }
+
+    /* HEADER */
+
+    .kiri1, .kanan1 {
+        width: 50%;
+    }
+
+    /* BAGIAN 1 */
+    .bagian1 {
+        width: 100%;
+    }
+
+    .judul {
+        width: 100%;
+        text-align: center;
+        line-height: 20px;
+        margin-bottom: 20px;
+        position: relative; left: 3px;
+    }
+
+    .sub-judul {
+        position: relative; left: -5px; top: 17px;
+    }
+
+    .komen-all {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        position: relative; right: 120px;
+    }
+
+    /* BAGIAN 2 */
+    .bagian2 {
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .img2 {
+        width: 40%;
+    }
+    
+    /* BAGIAN 3 */
+    .ket {
+        width: 50%;
+        position: relative; left: 50px;
+    }
+
+    .img1 {
+        width: 50%;
+        position: relative; left: 70px;
+    }
+
+    .img1 img {
+        width: 100px;
+    }
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+    background-color: #949494;
+    width: 100%;
+}
+
+.img1 {
+    width: 350px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.kanan1 {
+    line-height: 34px;
+}
+
+header h2 {
+    text-transform: capitalize;
+}
+
+header p {
+    font-size: 17px;
+}
+
+.button1 {
+    font-weight: 600;
+    background-color: orange;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    border: 2px;
+    padding: 15px;
+}
+ 
+.button1:hover {
+    color: orange;
+    background-color: white;
+}
+
+
+/* BAGIAN 1 */
+.bagian1 {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sub-judul {
+    line-height: 60px;
+    position: relative; right: 30px;
+    color: orange;
+    font-size: 15px;
+}
+
+.judul {
+    position: relative; right: 50px;
+}
+
+.komen {
+    position: relative; left: 120px;
+    line-height: 25px;
+    margin: 0px 20px;
+    padding: 40px 2px;
+    text-align: center;
+    background-color: #c0c5c7;
+}
+
+.komen img {
+    width: 80px;
+}
+
+
+/* BAGIAN 2 */
+.bagian2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #949494;
+    padding: 30px 0px;
+}
+
+.img2 img {
+    width: 350px;
+    /* position: relative; right: 260px; */
+}
+
+.sub-judul2 {
+    font-weight: 700;
+    /* position: relative; right: 40px; bottom: 20px; */
+    font-size: 15px;
+    color: orange;
+}
+
+
+
+/* BAGIAN 3 */
+.bagian3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 13px 0px;
+}
+
+.bagian3 img {
+    width: 175px;
+    height: 180px;
+    /* position: relative; left: 40px; top: 20px; */
+}
+
+.sub-judul3 {
+    color: orange;
+    font-size: 15px;
+    /* position: relative; right: 40px; */
+}
+
+.ket h3 {
+    line-height: 35px;
+}
+
+.ket p {
+    margin: 7px 0px;
+}
+.ket li {
+    list-style-type: disc;
+    line-height: 25px;
+    position: relative; left: 20px;
+}
+
+.ket {
+    position: relative; right: 150px;
+}
+
+
+/* BAGIAN 4 */
+.bagian4 {
+    padding: 30px 0px 10px 0px;
+    background-color: #949494;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+
+.food {
+    width: 270px;
+    position: relative; bottom: 30px; right: 100px;
+}
+
+.list2 {
+    margin-top: 22px;
+}
+
+.list3 {
+    margin-top: 22px;
+}
+
+.list-img img {
+    position: relative; right: 210px;
+    width: 50px;
+}
+
+.ket2 {
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 30px;
+}
+
+/* BAGIAN 5 */
+
+.bagian5 {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.bagian5 img {
+    position: relative; top: 40px; right: 100px;
+    width: 190px;
+    height: 200px;
+}
+
+.ket3 {
+    position: relative; left: 100px;
+    line-height: 27px;
+}
+
+.ket3 h4 {
+    color: orange;
+    position: relative; right: 40px;
+}
+
+.ket3 h3 {
+    margin: 10px 0px;
+    position: relative ; left: 50px;
+}
+
+.ket3 p {
+    margin: 20px 0px;
+}
+
+
+/* BAGIAN 6 */
+.bagian6 {
+    background-color: #949494;
+    padding: 20px 0px;
+}
+
+.ket4 {
+    text-align: center;
+}
+
+.ket4 h4,h3 {
+    text-transform: capitalize;
+} 
+
+.flex2 {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.als1, .als2, .als3 h4 {
+    line-height: 30px;
+}
+
+.als1 img {
+    width: 70px;
+}
+
+.als2 img {
+    width: 70px;
+}
+
+.als3 img {
+    width: 70px;
+}
+
+
+/* BAGIAN 7 */
+.bagian7 {
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.bagian7 img {
+    width: 300px;
+}
+
+.ket5 {
+    position: relative; top: 40px;
+}
+
+.ket5 h4, h3 {
+    text-transform: capitalize;
+}
+
+.ket5 h4 {
+    color: orange;
+    position: relative; right: 50px;
+}
+
+.ket5 h3 {
+    margin: 20px 0px;
+}
+
+
+/* BAGIAN 8 */
+.bagian8 {
+    background-color: #949494;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ket6 {
+    position: relative; top: 60px;
+}
+
+.button2 {
+    position: relative; top: 30px;
+    font-weight: 600;
+    background-color: orange;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    border: 2px;
+    padding: 15px;
+}
+ 
+.button2:hover {
+    color: orange;
+    background-color: white;
+}
+
+
+/* Footer */
+footer {
+    background-color: orange;
+    text-align: center;
+    color: white;
+    padding: 40px 0px;
+}
